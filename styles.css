@@ -87,26 +87,26 @@ h6 {
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: var(--fw-black);
+    font-size: 3.5rem;
+    font-weight: var(--fw-thin);
     letter-spacing: -0.03em;
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-weight: var(--fw-bold);
+    font-size: 3rem;
+    font-weight: var(--fw-thin);
     letter-spacing: -0.02em;
 }
 
 h3 {
-    font-size: 1.5rem;
-    font-weight: var(--fw-semi-bold);
+    font-size: 1.75rem;
+    font-weight: var(--fw-light);
     letter-spacing: -0.01em;
 }
 
 h4 {
-    font-size: 1.25rem;
-    font-weight: var(--fw-medium);
+    font-size: 1.35rem;
+    font-weight: var(--fw-light);
 }
 
 h5 {
@@ -127,7 +127,7 @@ p {
 
 strong,
 b {
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-regular);
 }
 
 a {
@@ -162,7 +162,7 @@ ul {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-light);
     text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -184,8 +184,8 @@ ul {
 
 .btn-large {
     padding: 1rem 2rem;
-    font-size: 1.1rem;
-    font-weight: var(--fw-bold);
+    font-size: 1.15rem;
+    font-weight: var(--fw-light);
     text-transform: uppercase;
     letter-spacing: 0.12em;
 }
@@ -235,8 +235,8 @@ ul {
     }
 
     h1 {
-        font-size: 4rem;
-        font-weight: var(--fw-black);
+        font-size: 5rem;
+        font-weight: var(--fw-thin);
         letter-spacing: -0.04em;
     }
 }
@@ -271,7 +271,7 @@ ul {
 
 .announcement-bar a {
     text-decoration: underline;
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-light);
 }
 
 .site-header {
@@ -460,7 +460,7 @@ ul {
     font-size: 1.2rem;
     color: var(--text-primary);
     margin-bottom: var(--spacing-sm);
-    font-weight: var(--fw-semi-bold);
+    font-weight: var(--fw-light);
 }
 
 .hero-trust {
@@ -615,7 +615,7 @@ ul {
     color: var(--text-primary);
     padding: 1rem 0;
     font-size: 1rem;
-    font-weight: var(--fw-medium);
+    font-weight: var(--fw-light);
     letter-spacing: 0.02em;
     cursor: pointer;
     display: flex;
