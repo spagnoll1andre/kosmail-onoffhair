@@ -1,3 +1,8 @@
+/* ==========================================================================
+   Typography — Inter (loaded via Google Fonts in index.html)
+   Variable font: supports continuous weights 100 – 900 + italic
+   ========================================================================== */
+
 /* CSS Variables & Theme */
 :root {
     --bg-primary: #000000;
@@ -10,10 +15,10 @@
     --accent: #00843E;
     --accent-hover: #006830;
 
-    /* Neue Helvetica font stack with proper fallbacks */
-    --font-stack: "Neue Helvetica", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* Inter font stack with proper fallbacks */
+    --font-stack: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-    /* Font weight scale — Neue Helvetica weight tiers */
+    /* Font weight scale — Inter weight tiers */
     --fw-ultra-light: 100;
     /* Ultra Light — airy, decorative accents */
     --fw-thin: 200;
@@ -68,7 +73,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/* Typography — Neue Helvetica weight hierarchy */
+/* Typography — Inter weight hierarchy */
 h1,
 h2,
 h3,
@@ -734,4 +739,84 @@ ul {
     font-size: 0.85rem;
     font-weight: var(--fw-ultra-light);
     letter-spacing: 0.04em;
+}
+
+/* ==========================================================================
+   Font-weight utility classes — Inter weight tiers
+   Apply directly in HTML:  <span class="fw-bold">…</span>
+   ========================================================================== */
+.fw-ultra-light {
+    font-weight: var(--fw-ultra-light);
+}
+
+/* 100 */
+.fw-thin {
+    font-weight: var(--fw-thin);
+}
+
+/* 200 */
+.fw-light {
+    font-weight: var(--fw-light);
+}
+
+/* 300 */
+.fw-regular {
+    font-weight: var(--fw-regular);
+}
+
+/* 400 */
+.fw-medium {
+    font-weight: var(--fw-medium);
+}
+
+/* 500 */
+.fw-semi-bold {
+    font-weight: var(--fw-semi-bold);
+}
+
+/* 600 */
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+/* 700 */
+.fw-extra-bold {
+    font-weight: var(--fw-extra-bold);
+}
+
+/* 800 */
+.fw-black {
+    font-weight: var(--fw-black);
+}
+
+/* 900 */
+
+/* Italic helpers */
+.font-italic {
+    font-style: italic;
+}
+
+.font-normal {
+    font-style: normal;
+}
+
+/* Letter-spacing helpers — pair with weight for polish */
+.ls-tight {
+    letter-spacing: -0.03em;
+}
+
+.ls-normal {
+    letter-spacing: 0;
+}
+
+.ls-wide {
+    letter-spacing: 0.04em;
+}
+
+.ls-wider {
+    letter-spacing: 0.08em;
+}
+
+.ls-widest {
+    letter-spacing: 0.12em;
 }
